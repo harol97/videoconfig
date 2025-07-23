@@ -1,0 +1,65 @@
+.quiz-editor .d-flex.mb-4 {}
+
+.quiz-editor .d-flex.mb-4 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    height: 60px;
+    padding: 12px 25px;
+    color: var(--color-white) !important;
+    background-color: var(--color-purple-1);
+    border: 2px solid var(--color-purple-1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    gap: 10px;
+}
+
+.d-flex.items-center.py-20.px-30.border-bottom-light .ms-auto button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    height: 60px;
+    padding: 12px 34px;
+    color: var(--color-white) !important;
+    background-color: var(--color-purple-1);
+    border: 2px solid var(--color-purple-1);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin: 0 0 10px 0;
+}
+
+.question-edit-container  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    height: 60px;
+    padding: 12px 25px;
+    color: var(--color-white) !important;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    gap: 10px;
+    background-color: var(--color-purple-1);
+    border: 2px solid var(--color-purple-1);
+}
+
+input.form-control {outline: none;width: 100%;background-color: transparent;border-radius: 8px;border: 1px solid #DDDDDD;font-size: 15px;line-height: 1.5;padding: 15px 22px;transition: all 0.15s cubic-bezier(0.165, 0.84, 0.44, 1);margin: 10px 0 10px 0;}
+
+.mb-3 label.form-label {
+    color: black;
+    font-size: 20px;
+}
